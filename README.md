@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Скачать примеры: git clone https://github.com/Melnychuk37/codeTemplates.git
-
-# Getting Started with Create React App
-=======
 # 1: Скачать: git clone https://github.com/Melnychuk37/codeTemplates.git
 # 2: npm install
 # 3: npm start 
