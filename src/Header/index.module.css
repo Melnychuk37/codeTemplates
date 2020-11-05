@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Poppins-black';
+    src: url('../../src/fonts/poppins/Poppins-Black.ttf');
+    }
+
+.headerBox {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerFont h1 {
+    box-sizing:border-box;
+    width:auto;
+    max-width:100%;
+    color: white;
+    font-size: 25px;
+    font-family: Poppins-black;
+    
+}
+
+.bgBlue {
+    background-color: blue;
+}
+

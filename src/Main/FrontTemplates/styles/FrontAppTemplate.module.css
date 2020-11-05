@@ -1,0 +1,22 @@
+.language {
+    font-size: 15px;
+}
+
+.block {
+    border: 1px solid lightgrey;
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+
+.fsCode {
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+}
+
+.container > img {
+    padding: 10px;
+    height: 55vh;
+}

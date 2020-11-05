@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Poppins-black';
+    src: url('../../src/fonts/poppins/Poppins-Black.ttf');
+    }
+
+.footerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footerBox p {
+    font-family: Poppins-black;
+    color: white;
+    font-size: 25px;
+}
+
+.bgLBlue {
+    background-color: hsl(209, 100%, 62%);
+}

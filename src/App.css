@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+
+  grid-template-areas: 
+  "h h"
+  "m m"
+  "f f";
+  grid-template-rows: 130px 1fr 130px;
+  grid-template-columns: 2fr 2fr;
+}
+
+header {
+  grid-area: h;
+}
+
+main {
+  grid-area: m;
+  min-height: 500px;
+}
+
+footer {
+  grid-area: f;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: blue;
+  font-weight: bold;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+li > a:hover {
+  color: blueviolet;
+}
