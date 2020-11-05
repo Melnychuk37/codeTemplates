@@ -22,9 +22,16 @@ footer {
   grid-area: f;
 }
 
-a {
+div > a {
   text-decoration: none;
   color: black;
+  font-size: 22px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+div > a:hover {
+  color: purple;
 }
 
 .active {
@@ -34,8 +41,16 @@ a {
 
 ul > li {
   list-style-type: none;
+  margin-top: 14px;
+}
+
+li > a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid grey;
 }
 
 li > a:hover {
-  color: blueviolet;
+  color: purple;
 }

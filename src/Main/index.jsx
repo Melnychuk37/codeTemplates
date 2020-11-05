@@ -15,9 +15,9 @@ const Main = _ => {
         <main className={`${styles.bgWhite} ${styles.mainBox}`}>
             <div className={`${styles.containerDevider}`}>
                 <div className={`${styles.contentNavigation}`}>
-                    <NavLink to='/backend-templates' >backend</NavLink>
+                    <NavLink to='/backend-templates' >Backend templates</NavLink>
                         <Route path='/backend-templates' component={NavigationBackend}></Route>
-                    <NavLink to='/frontend-templates' >frontend</NavLink>
+                    <NavLink to='/frontend-templates' >Frontend templates</NavLink>
                         <Route path='/frontend-templates' component={NavigationFrontend}></Route>
                 </div>
                 <div className={`${styles.contentFlow}`}>  

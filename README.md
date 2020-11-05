@@ -1,3 +1,5 @@
+# Скачать примеры: git clone https://github.com/Melnychuk37/codeTemplates.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
