@@ -52,7 +52,7 @@ export default {
     {
         id: 2, 
         name: 'state (module для Play form component)', 
-        description: 'Пример который отрисовывает контейнерная компонента vue отображен справа. выпадающий список disabled пока не выбрана соответствующий тип розыграша (картинки подписанные \'Rush\', \'Pass\', \'Special Play\', являют собой кнопки, после нажатия которых идет снятия свойства disabled с выпадающего списка и <input/>\'ов снизу).',
+        description: 'State разбит по модулях, здесь представлена часть стейта, которая отвечает за работу PlayForm, указанной в примере выше.',
         script: `
 import {stateDefault} from './defaultObjects/stateDefault';
 
